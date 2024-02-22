@@ -1,7 +1,7 @@
 provider "aws" {
   profile = "anbu"
   region  = "ap-south-1"
-  version = ">= 4.45.0"
+  version = "<= 4.45.0"
 }
 
 provider "kubernetes" {}
